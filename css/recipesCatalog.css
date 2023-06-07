@@ -1,0 +1,592 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ 
+body,html{
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Gilroy';
+    background-color: #FBF1DF;
+    box-sizing: border-box;
+}
+
+.header{
+    background: linear-gradient(180deg, #D23B34 0%, #B63334 100%);
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hamburger_menu{
+    width: 100%;
+}
+
+#menu__toggle {
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin:0;
+    padding: 30px 25px;
+}
+
+.nav_left{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav_item{
+    list-style-type: none;
+}
+
+.item_1{
+    margin-left: 20px;
+}
+
+
+.nav_item:hover{
+    border-bottom: solid #FFC66C;;
+}
+
+.nav_number{
+    width: 212px;
+    height: 47px;
+
+    background: linear-gradient(144.87deg, #099F33 4.93%, rgba(113, 255, 152, 0.42) 118.58%);
+    border-radius: 0px 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    z-index: 2;
+}
+.nav_number_p{
+    margin: 14px 0 13px 0;
+}
+
+.nav_icon{
+    display: inline-block;
+
+}
+
+.nav_dropdown{
+    margin-right: 40px;
+}
+
+
+
+.nav_lang{
+    color: white;
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+
+.nav_lang:hover {
+    cursor: pointer;
+}
+
+.nav_lang_cont{
+    display: none;
+}
+
+.nav_dropdown:hover div{ 
+    display: block;
+    position: absolute;
+}
+
+.nav_lang_drop{
+    width: 40px;
+    font-size: 16px;
+    border: 0;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_lang_drop:hover{
+    cursor: pointer;
+}
+
+.recipe_nav_item{
+    list-style-type: none;
+}
+
+.header_line{
+    height: 43px;
+    background-color: #BB9A6F;
+}
+
+.content_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 45px 0 70px;
+}
+
+.content_item{
+    max-width: 450px;
+}
+
+.content_img{
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.content_title{
+    display: block;
+    margin: 40px 0 70px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.partners_img{
+    position: absolute;
+    top: 150px;
+    left: 0;
+	right: 0;
+    margin: 0 auto;
+    display: block;
+    max-width: 848px;
+    max-height: 460px;
+}
+
+.partners_line{
+    width: 100%;
+    height: 43px;
+    background-color: #BB9A6F;
+    margin-top: 314px;
+}
+
+
+.partners_block{
+    display: flex;
+    width: 90%;
+    border-radius: 50px;
+    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 50px auto 110px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 100%;
+}
+
+.partners_left{
+    text-align: center;
+    width: 30%;
+    margin: 60px 0 90px;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 0 rgba(0, 0, 0, 0.25);
+    flex-grow: 1;
+}
+
+.partners_right{
+    width: 70%;
+    font-size: 21px;
+}
+
+.partners_right2{
+    display: none;
+    width: 70%;
+    font-size: 18px;
+    overflow-x: auto;
+}
+
+.partners_title2{
+    margin: 80px 0 35px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.table{
+    width: 90%;
+    margin: 0 auto 43px;
+    border-spacing: 12px;
+}
+
+.table_th{
+    font-size: 21px;
+}
+
+.table_tr{
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25);
+}
+.table_td{
+    max-width: 115px;
+}
+
+.partners_btn{
+    text-align: center;
+    padding: 0;
+    display: block;
+    background: none;
+    border: none;
+    font-size: 21px;
+    font-weight: bold;
+    white-space: normal;
+    width: 100%;
+}
+
+.partners_btn:first-child{
+    margin-top: 50%;
+}
+
+.partners_btn:last-child{
+    margin-top: 40px;
+}
+
+.partners_btn:focus{
+    color: #1C3090;
+}
+
+
+.partners_btn:hover{
+    cursor: pointer;
+}
+
+.partners_title{
+    margin-top: 10%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.partners_text_wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.partners_paraph:nth-child(2n){
+    margin: 60px 0;
+}
+
+.partners_under{
+    display: block;
+    margin-bottom: 90px;
+}
+
+.partners_span{
+    display: block;
+    margin: 27px 0;
+}
+
+
+
+
+.recipe_footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 18px 10px;
+    text-align: center;
+    border-top: solid #0A1429;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    white-space: nowrap;
+}
+
+.footer_icon{
+    margin: 0 5px;
+    max-width: 23px;
+    max-height: 23px;
+}
+
+.footer_icon_wrap{
+    display: flex;
+    margin-top: 15px;
+}
+
+.footer_link{
+    max-width: 44px;
+    max-height: 44px;
+    margin-left: 28px;
+}
+
+.footer_link:first-child{
+    margin-left: 0;
+}
+
+.footer_recipe_icon{
+    max-width: 44px;
+    max-height: 44px;
+}
+
+
+@media screen and (max-width: 1380px){
+
+}
+
+@media (max-width: 1200px){
+    .nav_number{
+        display: none;
+    }
+    .nav_right{
+       width:  20%;
+    }
+    .nav_left{
+        width: 90%;
+        margin-right: 30px;
+    }
+    .nav{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+    .nav_right{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    .partners_block{
+        padding: 1px;
+        display: block;
+    }
+    .partners_right2{
+        width: 100%;
+    }
+    .partners_left{
+        width: 90%;
+        height: 30%;
+        margin: 30px auto 0;
+        border-right: none;
+        box-shadow: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5) ;
+    }
+    .partners_btn:first-child{
+        margin-top: 0;
+    }
+    .partners_btn:last-child{
+        margin-bottom: 20px;
+    }
+    .partners_right{
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .partners_img{
+        display: none;
+    }
+    .partners_line{
+        display: none;
+    }
+    .item_1{
+        margin-left: 0;
+    }
+    .navbar{
+        display: block;
+    }
+    .nav_right{
+        display: none;
+    }
+    .nav_left{
+        width: 90%;
+        justify-content: space-between;
+    }
+    .nav{
+        width: 100%;
+    }
+    .recipe_footer{
+        justify-content: center;
+    }
+    .footer_text{
+        white-space: normal;
+    }
+    
+}
+
+@media(max-width: 800px){
+    .hamburger_menu{
+        margin-right: 20px;
+    }
+    .menu__btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 500;
+      }
+      /* добавляем "гамбургер" */
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #FFFFFF;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+    /* контейнер меню */
+    .nav {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #BB9A6F;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        z-index: 10;
+    }
+    /* элементы меню */
+    .nav_item {
+        display: block;
+        padding: 12px 24px;
+        color: #FFFFFF;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .nav_item:hover {
+        background-color: #CFD8DC;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .nav {
+        visibility: visible;
+        left: 0;
+      }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+    transition-duration: .25s;
+    }
+    .nav {
+    transition-duration: .25s;
+    }
+    .nav_item {
+    transition-duration: .25s;
+    }
+}
+
+
+
+@media(max-width: 700px) {
+    .logo_img{
+        width: 80px;
+        height: 60px;
+    }
+    .navbar{
+        padding: 5px;
+    }
+    .header_line{
+        height: 20px;
+    }
+    .partners_block{
+        margin-top: 20px;
+        border: none;
+        box-shadow: none;
+    }
+    .partners_btn{
+        font-size: 18px;
+    }
+    .partners_right{
+        font-size: 16px;
+    }
+    .partners_title{
+        font-size: 30px;
+    }
+    .partners_title2{
+        font-size: 30px;
+    }
+    .table{
+        width: 100%;
+        margin: 0 0 43px;
+    }
+
+    .header_text{
+        z-index: 1;
+    }
+    .recipe_footer{
+        padding: 10px;
+    }
+    .footer_text{
+        font-size: 16px;
+    }
+    .footer_recipe_icon{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media(max-width: 500px){
+}
+
+
+@media(max-width: 400px){
+}
+

@@ -1,0 +1,1197 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ 
+body,html{
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+    background: url(../img/фон\ \(1\).png) no-repeat center center fixed;
+    background-color: #FBF1DF;
+    background-size: cover;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.hamburger_menu{
+    width: 100%;
+}
+
+#menu__toggle {
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin:0;
+    padding: 30px 25px;
+}
+
+.nav_left{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav_item{
+    list-style-type: none;
+}
+
+.recipe_nav_item{
+    list-style-type: none;
+}
+
+.item_1{
+    margin-left: 20px;
+}
+
+
+.nav_item:hover {
+    border-bottom: solid #FFFFFF;
+}
+
+
+
+.nav_number{
+    width: 212px;
+    height: 47px;
+
+    background: linear-gradient(144.87deg, #099F33 4.93%, rgba(113, 255, 152, 0.42) 118.58%);
+    border-radius: 0px 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    z-index: 2;
+}
+.nav_number_p{
+    margin: 14px 0 13px 0;
+}
+
+.nav_icon{
+    display: inline-block;
+}
+
+.nav_dropdown{
+    margin-right: 40px;
+}
+
+.nav_img{
+    height: 28px;
+    width: 25px;
+}
+
+
+.nav_lang{
+    color: #000;
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+
+.nav_lang:hover {
+    cursor: pointer;
+}
+
+.nav_lang_cont{
+    display: none;
+}
+
+.nav_dropdown:hover div{ 
+    display: block;
+    position: absolute;
+}
+
+.nav_lang_drop{
+    width: 40px;
+    font-size: 16px;
+    border: 0;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_lang_drop:hover{
+    cursor: pointer;
+}
+
+
+/* section product */
+
+.product {
+    width: 100%;
+    margin-top: 79px;
+}
+
+
+.product_category {
+    width: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 61px;
+}
+  
+.category_item {
+    text-align: center;
+    margin-bottom: 45px;
+    z-index: 2;
+}
+
+.category_item:hover{
+    cursor: pointer;
+}
+  
+.item_back {
+    height: 102px;
+    width: 152px;
+    border-radius: 6px;
+    position: relative;
+    overflow: visible;
+    transition: transform 0.3s;
+}
+
+.item_back:hover{
+    transform: scale(1.2);
+}
+
+
+.category_item:nth-child(1) > .item_back {
+    background-color: #EF7771;
+}
+  
+.category_item:nth-child(2) > .item_back {
+    background-color: #FFD48F;
+}
+  
+.category_item:nth-child(3) > .item_back {
+    background-color: #4BD166;
+}
+  
+.category_item:nth-child(4) > .item_back {
+    background-color: #B0D7E7;
+}
+
+  
+.item_img {
+    position: absolute;
+    top: -20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+
+.item_img.first{
+    top: -33px;
+}
+
+ 
+  
+.category_span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.product_wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.product_flour {
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 210px;
+    margin-right: 100px;
+}
+
+.product_card_wrap{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.product_card_block{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flour_img{
+    position: absolute;
+    height: 268.95599365234375px;
+    width: 387.493408203125px;
+    right: 0;
+    top: 191.38671875px;
+}
+
+.product_card {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+
+.product_img{
+    width: 270px;
+    height: 340px;
+}
+
+.product_title{
+    font-size: 32px;
+    white-space: nowrap;
+    margin: 19px 0;
+}
+
+.product_list{
+    list-style-type: none;
+    font-size: 29px;
+    margin: 0;
+    padding: 0;
+}
+
+.product_item{
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.softWheat{
+    display: none;
+    position: relative;
+}
+
+.softWheat_title_block{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    color: #FFFFFF;
+    background: linear-gradient(235.13deg, #58960D 4.93%, rgba(254, 221, 120, 0.5) 118.58%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 100px 0;
+    width: 356px;
+    text-align: center;
+}
+
+.softWheat_title{
+    display: inline-block;
+    margin: 20px auto 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.softWheat_card {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.softWheat_wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 90px;
+    margin: 80px  0 0 100px;
+}
+
+
+
+.softWheat_text{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+
+.softWheat_name {
+    writing-mode: vertical-lr;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.2);
+    transform: rotate(180deg);
+    margin-right: 60px;
+}
+  
+.softWheat_img {
+    display: block;
+    width: 80%; 
+    max-height: 100%; 
+    margin: 0; 
+}
+.soft_img{
+    width: auto;
+}
+
+
+.hardWheat{
+    display: none;
+}
+
+.hardWheat_title {
+    font-size: 25px;
+    color: #FFFFFF;
+    background: linear-gradient(225deg, #E1251B 4.93%, rgba(254, 221, 120, 0.5) 118.58%);
+    background-origin: border-box;
+    background-clip: padding-box;
+    border-radius: 100px 0;
+    width: 356px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 0 55px 150px;
+    padding: 25px 30px;
+}
+
+
+
+
+.hardWheat_card{
+    display: flex;
+}
+
+.hardWheat_block{
+    margin-top: 50px;
+    text-align: right;
+}
+
+.hardWheat_text{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.hardWheat_img_pos{
+    display: none;
+    position: absolute;
+    height: 148px;
+    width: 619px;
+    left: 209px;
+    top: 750px;
+    z-index: 1;
+}
+
+
+
+
+
+
+.gulazyk{
+    display: none;
+}
+
+.gulazyk_title_block{
+    width: 211px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 19px 30px;
+    margin-left: 145px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    background: #D60100;
+    border-radius: 50px;
+}
+
+.gulazyk_card{
+    margin-top: 50px;
+}
+
+.gulazyk_block{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.kesme{
+    margin-bottom: 150px;
+    display: none;
+    justify-content: center;
+}
+
+.kesme_wrapper{
+    width: 879px;
+}
+
+.kesme_title{
+    width: 513.82px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 19px 30px;
+    background: #A98C6B;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.pasta{
+    display: none;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+ 
+.pasta_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.pasta_img{
+    transition: transform 0.3s;
+}
+
+.pasta_img:hover{
+    transform: scale(1.1);
+}
+
+.pasta_text{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.sort_img{
+    display: block;
+}
+.sort_img:last-child{
+    margin-top: 70px;
+}
+
+.sort_text_wrap{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.sort_title{
+    font-size: 32px;
+}
+.sort_text{
+    display: block;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+
+.spaghetti_wrap {
+    display: none;
+    flex-direction: column; 
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto 170px;
+}
+
+
+.title_name{
+    writing-mode: vertical-lr;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.2);
+    transform: rotate(180deg);
+    margin-right: 60px;
+}
+
+.macarons {
+    display: none;
+    justify-content: center;
+}
+  
+.macarons_img_wrap {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-right: 116px;
+}
+
+  
+.macarons_text_wrap {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+  
+.macarons_text {
+    display: block;
+    font-weight: 600;
+    font-size: 21px;
+    align-self: end;
+    margin-top: 30px;
+}
+
+
+.spaghetti{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 70px 0 0;
+}
+
+.spaghetti_card_wrap{
+    display: flex;
+}
+
+.spaghetti_text_wrap{
+    margin-top: 60px;
+}
+
+.spaghetti_text{
+    margin-top: 13px;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.lasagna{
+    display: flex;
+    margin-top: 50px;
+    align-items: end; 
+}
+
+.lasagna_text{
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 13px;
+    text-align: center;
+
+}
+
+.lasagna_img{
+    margin-top: 23px;
+}
+
+.noodles{
+    margin-top: 90px;
+    display: flex;
+}
+
+.noodles_card{
+ align-self: flex-end;
+ margin-left: 50px;
+}
+.noodles_text_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.noodles_text{
+    margin-top: 13px;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.noodles_card .noodles_img:nth-child(2) {
+    margin-top: 29px;
+}
+
+.wheat_img{
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.kitlap_card{
+    margin-top: 0 ;
+    justify-content: center;
+}
+
+.softWheat_kitlap{
+    margin-bottom: 200px;
+}
+
+.kitlap_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 0;
+}
+
+
+
+
+
+/* section footer */
+.recipe_footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 18px 10px;
+    text-align: center;
+    border-top: 5px solid #FFFFFF;
+    background: #FEC165;
+    color: #fff;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    white-space: nowrap;
+}
+
+.footer_icon{
+    margin: 0 5px;
+    max-width: 23px;
+    max-height: 23px;
+}
+
+.footer_icon_wrap{
+    display: flex;
+    margin-top: 15px;
+}
+
+.footer_link{
+    max-width: 44px;
+    max-height: 44px;
+    margin-left: 28px;
+}
+
+.footer_link:first-child{
+    margin-left: 0;
+}
+
+.footer_recipe_icon{
+    max-width: 44px;
+    max-height: 44px;
+}
+
+
+@media (max-width: 768px) {
+    .product_card {
+      width: 50%;
+    }
+  }
+  
+@media (max-width: 480px) {
+    .product_card {
+      width: 100%;
+    }
+}
+
+@media (max-width: 1200px){
+    .product {
+        flex-wrap: wrap;
+    }
+    .product_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flour_img{
+        display: none;
+    }
+    .pasta_wrapper{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: 100px;
+    }
+    .product_card_wrap{
+        justify-content: center;
+    }
+    .product_card_block{
+        justify-content: center;
+    }
+    .product_flour {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .product_category {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+    .product_card {
+        margin-left: 50px;
+    }
+    .product_item{
+        width: 100%;
+        text-align: center;
+    }
+    .nav_number{
+        display: none;
+    }
+    .nav_right{
+       width:  20%;
+    }
+    .nav_left{
+        width: 90%;
+        margin-right: 30px;
+    }
+    .nav{
+        margin: 0;
+        width: 100%;
+    }
+    .wheat_img{
+        display: none;
+    }
+    .hardWheat{
+        margin-bottom: 50px;
+    }
+    .hardWheat_img_pos{
+        display: none;
+    }
+    .gulazyk{
+        margin: 0 auto;
+    }
+    .hardWheat{
+        margin: 0 auto;
+    }
+    .softWheat{
+        margin: 0 auto;
+    }
+    .softWheat_img{
+        margin: 0 auto;
+    }
+    .pasta{
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (max-width: 1000px){
+    .nav_right{
+        display: none;
+    }
+    .spaghetti{
+        display: block;
+        text-align: center;
+    }
+    .spaghetti_card_wrap{
+        display: block;
+    }
+    .spaghetti_card{
+        margin: 50px auto 0;
+    }
+    .spaghetti_text_wrap{
+        margin-top: 20px;
+    }
+    .lasagna{
+        display: block;
+        margin: 50px auto 0;
+        text-align: center;
+    }
+    .lasagna_card{
+        margin-top: 30px;
+    }
+    .noodles{
+        display: block;
+        margin: 70px auto 0;
+    }
+    .noodles_img{
+        display: block;
+        margin: 0 auto;
+    }
+    .noodles_card{
+        margin: 30px 0 0; 
+    }
+    .title_name{
+        writing-mode: initial;
+        font-size: 35px;
+        color: rgba(0, 0, 0, 0.2);
+        transform: none;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .macarons{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 900px){
+    .macarons_img_wrap{
+        margin-right: 0;
+        max-width: 100%;
+        height: auto;
+    } 
+    .macarons{
+        display: none;
+    }
+    .macarons_text{
+        text-align: center;
+    }
+    .item_1{
+        margin-left: 0;
+    }
+    .navbar{
+        display: block;
+    }
+    .nav_right{
+        display: none;
+    }
+    .nav_left{
+        width: 90%;
+        justify-content: space-between;
+    }
+    .nav{
+        width: 100%;
+    }
+    .recipe_footer{
+        justify-content: center;
+    }
+    .footer_text{
+        white-space: normal;
+    }
+    
+}
+
+
+@media(max-width: 800px){
+    .hamburger_menu{
+        margin-right: 20px;
+    }
+    .menu__btn {
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 500;
+      }
+      /* добавляем "гамбургер" */
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #FFFFFF;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+    /* контейнер меню */
+    .nav {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #BB9A6F;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        z-index: 10;
+    }
+    /* элементы меню */
+    .nav_item {
+        display: block;
+        padding: 12px 24px;
+        color: #FFFFFF;
+        font-family: 'Gilroy', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .nav_item:hover {
+        background-color: #CFD8DC;
+    }
+
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .nav {
+        visibility: visible;
+        left: 0;
+      }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+    transition-duration: .25s;
+    }
+    .nav {
+    transition-duration: .25s;
+    }
+    .nav_item {
+    transition-duration: .25s;
+    }
+    
+    .product_flour {
+        justify-content: center;
+    }
+
+    .product_card{
+        margin-left: 20px;
+    }
+
+    .softWheat_card{
+        display: block;
+        margin-top: 100px;
+    }
+    .softWheat_name{
+        writing-mode: initial;
+        font-size: 35px;
+        color: rgba(0, 0, 0, 0.2);
+        transform: none;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    .pasta_wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 0;
+    }
+    .gulazyk_title_block{
+        width: 70%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+    .gulazyk_block{
+        padding: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .kesme_wrapper{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .kesme_title{
+        margin: 0 auto 40px;
+        width: 70%;
+        font-size: 20px;
+    }
+    .kesme_img{
+        width: 100%;
+    }
+    .hardWheat_card{
+        display: block;
+        text-align: center;
+    }
+    .hardWheat_img{
+        margin: 0 auto;
+    }
+    .hardWheat_block{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hardWheat_text{
+        margin: 0;
+    }
+    .macarons{
+        margin-top: 50px;
+    }
+    .spaghetti_wrap{
+        width: 100%;
+    }
+    .noodles_text_wrap{
+        justify-content: space-around;
+    }
+}   
+
+
+@media(max-width: 700px) {
+    .sort{
+        display: block;
+    }
+    .sort_img{
+        margin: 0 auto;
+    }
+    .sort_img:last-child{
+        margin: 20px auto;
+    }
+    .sort_text_wrap{
+        margin-left: 0;
+    }
+    .macarons_img{
+        width: 90%;
+    }
+    .hardWheat_title{
+        margin: 0;
+    }
+    .product_category {
+        flex-wrap: wrap;
+    }
+    .logo_img{
+        width: 80px;
+        height: 60px;
+    }
+    .navbar{
+        padding: 5px;
+    }
+    .softWheat_title_block{
+        position: static;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .recipe_footer{
+        display: block;
+        padding: 10px;
+    }
+    .footer_text{
+        font-size: 16px;
+    }
+    .footer_icon_wrap {
+        justify-content: center;
+    }
+    .footer_recipe_icon{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 600px){
+    .noodles{
+        width: 100%;
+    }
+    .lasagna{
+        width: 100%;
+        text-align: center;
+    }
+    .noodles_text_wrap{
+        display: block;
+        text-align: center;
+    }
+    .noodles_card{
+        margin-top: 70px;
+    }
+    .lasagna_img{
+        width: 90%;
+    }
+    .noodles_img:last-child{
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px){
+    .hardWheat_title{
+       display: none;
+    }
+    .softWheat_card{
+        margin-top: 50px;
+    }
+    .softWheat_name{
+        font-size: 20px;
+    }
+    .softWheat_block{
+        text-align: center;
+    }
+    .title_name{
+        font-size: 20px;
+    }
+    .softWheat_img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .softWheat_wrapper{
+        margin: 20px 0;
+    }
+    .softWheat_text{
+        font-size: 15px;
+    }
+    .pasta_img{
+        width: 90px;
+        height: 90px;
+    }
+    .pasta_wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+    .pasta_text{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 400px){
+
+    .product_category{
+        display: block;
+    }
+    .item_back{
+        margin: 0 auto;
+    }
+    
+    .softWheat_title{
+        font-size: 20px;
+    }
+    .softWheat_wrapper{
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+    }
+    .kitlap_wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .softWheat_kitlap{
+        margin-bottom: 50px;
+    }
+    .hardWheat_block{
+        display: block;
+        text-align: center;
+    }
+    .hardWheat_text{
+        display: block;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
