@@ -23,8 +23,8 @@
                         <li class="nav_item item_1"><a href="index.html">О нас</a></li>
                         <li class="nav_item"><a href="product.html">Продукция</a></li>
                         <li class="nav_item"><a href="recipesCatalog.html">Книга рецептов</a></li>
-                        <li class="nav_item"><a href="partners.html">Сотрудничество</a></li>
-                        <li class="nav_item"><a href="partners.html">Контакты</a></li>
+                        <li class="nav_item"><a href="partners.html" onclick="selectPart(1);">Сотрудничество</a></li>
+                        <li class="nav_item"><a href="partners.html" onclick="selectPart(2);">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -322,5 +322,10 @@
         </div>
     </footer>
     <script src="js/product.js"></script>
+    <script>
+        function selectPart(partNumber) {
+            localStorage.setItem('selectedPart', partNumber);
+        }
+    </script>
 </body>
 </html>

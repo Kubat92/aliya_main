@@ -314,3 +314,91 @@ function checkScreenWidth() {
 
 window.addEventListener('load', checkScreenWidth);
 window.addEventListener('resize', checkScreenWidth);
+
+const selectedProduct = localStorage.getItem('selectedProduct');
+
+if (selectedProduct === '1') {
+  document.querySelector('.product_flour').style.display = 'block';
+  document.querySelector('.sort').style.display = 'flex';
+
+  document.querySelector('.pasta').style.display = 'none';
+  document.querySelector('.softWheat').style.display = 'none';
+  document.querySelector('.softWheat_kitlap').style.display = 'none';
+  document.querySelector('.wheat_img').style.display = 'none';
+  document.querySelector('.gulazyk').style.display = 'none';
+  document.querySelector('.kesme').style.display = 'none';
+  document.querySelector('.hardWheat').style.display = 'none';
+  document.querySelector('.macarons').style.display = 'none';
+  document.querySelector('.spaghetti_wrap').style.display = 'none';
+  document.querySelector('.hardWheat_img_pos').style.display = 'none';
+  const sortItem = document.getElementsByClassName('sort')[0];
+
+  function checkWidth() {
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth < 600) {
+      sortItem.style.display = 'block';
+    } else {
+      sortItem.style.display = 'flex';
+    }
+  }
+
+  window.addEventListener('resize', checkWidth);
+  disableMediaQueries();
+
+} else if (selectedProduct === '2') {
+
+  document.querySelector('.hardWheat').style.display = 'block';
+  document.querySelector('.pasta').style.display = 'block';
+  document.querySelector('.macarons').style.display = 'flex';
+  document.querySelector('.spaghetti_wrap').style.display = 'block';
+  document.querySelector('.product_wrapper').style.justifyContent = 'space-between';
+
+  document.querySelector('.product_flour').style.display = 'none';
+  document.querySelector('.softWheat').style.display = 'none';
+  document.querySelector('.softWheat_kitlap').style.display = 'none';
+  document.querySelector('.wheat_img').style.display = 'none';
+  document.querySelector('.gulazyk').style.display = 'none';
+  document.querySelector('.kesme').style.display = 'none';
+  document.querySelector('.sort').style.display = 'none';
+  document.querySelector('.flour_img').style.display = 'none';
+
+  disableMediaQueries();
+
+  mediaQuery = window.matchMedia('(max-width: 1200px)');
+  mediakuery = window.matchMedia('(max-width: 1000px)');
+
+  mediakuery.addEventListener('change', screenChange);
+  mediaQuery.addEventListener('change', handleScreenChange);
+
+  screenChange(mediakuery);
+  handleScreenChange(mediaQuery);
+
+}else if (selectedProduct === '3'){
+
+  const screenWidth = window.innerWidth;
+
+  document.querySelector('.softWheat').style.display = 'block';
+  document.querySelector('.pasta').style.display = 'block';
+  document.querySelector('.softWheat_kitlap').style.display = 'block';
+  document.querySelector('.product_wrapper').style.justifyContent = 'space-between';
+
+  document.querySelector('.macarons').style.display = 'none';
+  document.querySelector('.spaghetti_wrap').style.display = 'none';
+  document.querySelector('.hardWheat').style.display = 'none';
+  document.querySelector('.product_flour').style.display = 'none';
+  document.querySelector('.gulazyk').style.display = 'none';
+  document.querySelector('.kesme').style.display = 'none';
+  document.querySelector('.sort').style.display = 'none';
+  document.querySelector('.flour_img').style.display = 'none';
+
+  if (screenWidth > 1200) {
+    document.querySelector('.wheat_img').style.display = 'block';
+  } else {
+    document.querySelector('.wheat_img').style.display = 'none';
+  }
+
+  disableMediaQueries();
+
+}
+

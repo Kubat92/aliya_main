@@ -23,8 +23,8 @@
                         <li class="nav_item item_1"><a href="index.html">О нас</a></li>
                         <li class="nav_item"><a href="product.html">Продукция</a></li>
                         <li class="nav_item"><a href="recipes.html">Книга рецептов</a></li>
-                        <li class="nav_item"><a href="partners.html">Сотрудничество</a></li>
-                        <li class="nav_item"><a href="partners.html">Контакты</a></li>
+                        <li class="nav_item"><a href="partners.html" onclick="selectPart(1);">Сотрудничество</a></li>
+                        <li class="nav_item"><a href="partners.html" onclick="selectPart(2);">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -83,12 +83,17 @@
     </section>
     <footer class="recipe_footer">
         <a href="index.html"><img src="img/Frame 3.png" alt=""class="logo_img"></a>
-        <p class="footer_text">2021<img src="img/Vector.png" alt="" class="footer_icon">Все права защищены - ОсОО Золотой поток</p>
+        <p class="footer_text">2021<img src="img/Vector (8).png" alt="" class="footer_icon">Все права защищены - ОсОО Золотой поток</p>
         <div class="footer_icon_wrap">
             <a href="" class="footer_link"><img src="img/Vector (3).png" alt="" class="footer_recipe_icon"></a>
             <a href="" class="footer_link"><img src="img/Vector (4).png" alt="" class="footer_recipe_icon"></a>
             <a href="" class="footer_link"><img src="img/Group 442.png" alt="" class="footer_recipe_icon"></a>
         </div>
     </footer>
+    <script>
+        function selectPart(partNumber) {
+            localStorage.setItem('selectedPart', partNumber);
+        }
+    </script>
 </body>
 </html>

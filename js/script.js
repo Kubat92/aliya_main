@@ -386,5 +386,3 @@ ymaps.ready(function () {
         .add(myPlacemark26)
         .add(myPlacemark27)
 });
-
-

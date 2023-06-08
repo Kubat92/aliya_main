@@ -291,49 +291,46 @@ a{
 
 
 .card_img_block{
+    position: relative;
     margin-bottom: 60px;
 }
 
-.products_image{
-    width: 131.62px;
-    height: 233.66px;
-}
+
 
 .p-image1{
-    width: 131.62px;
-    height: 233.66px;
+    max-height: 254.81296753600384px;
+    max-width: 143.53172852704617px;
     transform: rotate(-7.69deg);
 }
 
 .p-image2{
-    width: 138.05px;
-    height: 233.76px;
+    max-height: 209.03447808550143px;
+    max-width: 154.54801439808094px;
     transform: rotate(7.53deg);
 }
 
 .p-image3{
-    width: 155.45px;
-    height: 199.72px;
-    transform: rotate(-10.16deg);
+    max-height: 350.8344421386719px;
+    max-width: 298.7146911621094px;
 }
-
+/* 
 .p-image4{
-    width: 98.25px;
-    height: 320.45px;
+    max-height: 331.2843582439778px;
+    max-width: 117.1123793733309px;
     transform: rotate(16.68deg);
-}
+} */
 
 .p-image5{
-    width: 153px;
-    height: 174px;
-    transform: rotate(-7.35deg);
+    max-height: 314.24737548828125px;
+    max-width: 351.1882629394531px; 
 }
 
-.p-image6{
-    width: 211.45px;
-    height: 285.96px;
-    transform: rotate(10.96deg);
-}
+/* .p-image6{
+    max-height: 271.51660256968813px;
+    max-width: 196.47111584111232px;
+    z-index: 1;
+    transform: rotate(9.9deg);
+} */
 
 .card_title{
     font-size: 35px;
@@ -372,15 +369,22 @@ a{
 
 .about_top{
     display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0;
+    padding: 1px;
 }
 
 .about_title{
-    display: inline-block;
+    display: flex;
+    align-items: flex-end;
     z-index: 5;
     font-weight: 600;
     font-size: 48px;
     margin: 110px 0 0 30px;
     width: 200px;
+    height: 132px;
+    background: linear-gradient(144.87deg, #FFC66C 4.93%, rgba(254, 221, 120, 0.5) 118.58%);
+    border-radius: 100px 0px;
 }
 
 .about_pos{
@@ -682,6 +686,11 @@ a{
     display: inline-block;
 }
 
+.links_img{
+    max-height: 63.188232421875px;
+    max-width: 63.188232421875px;
+}
+
 .news_links_name{
     display: block;
     font-size: 22px;
@@ -913,8 +922,14 @@ a{
 /* end section footer */
 
 @media(max-width: 1400px) {
+    .products_main{
+        margin-top: 70px;
+    }
     .about_top{
         display: block;
+    }
+    .about_list{
+        margin-top: 30px;
     }
 }
 
@@ -1386,9 +1401,9 @@ a{
         display: block;
         width: 100%;
     }
-    .p-image5{
+    /* .p-image5{
         display: none;
-    }
+    } */
     .partners_list{
         justify-content: space-evenly;
     }

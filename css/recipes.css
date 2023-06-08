@@ -110,7 +110,8 @@ a{
 
 .nav_icon{
     display: inline-block;
-
+    width: 24px;
+    height: 24px;
 }
 
 .nav_dropdown{
@@ -189,6 +190,7 @@ a{
     }
 }
 
+
 .recipe_img{
     display: block;
     max-width: 782px;
@@ -236,6 +238,10 @@ a{
     animation-fill-mode: forwards;
 }
 
+.logo_img{
+    max-height: 90px;
+    max-width: 155px;
+}
 
 
 /* end section content */
