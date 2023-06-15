@@ -32,8 +32,8 @@ ymaps.ready(function () {
         myPlacemark = new ymaps.Placemark(myMap.getCenter(), { 
             balloonContent: `
                 <div class='balloon'>
-                    <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                    <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                    <span class='balloon_text'>Название субъекта: <b>Бишкек</b></span>
+                    <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                     <span class='balloon_text_under'>город адрес</span>
                     <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
                 </div>
@@ -46,8 +46,8 @@ ymaps.ready(function () {
         myPlacemark2 = new ymaps.Placemark([42.520755, 72.250591], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Талас</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -59,8 +59,8 @@ ymaps.ready(function () {
         myPlacemark3 = new ymaps.Placemark([40.517525, 72.805570], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Ош</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -72,8 +72,8 @@ ymaps.ready(function () {
         myPlacemark4 = new ymaps.Placemark([42.819791, 73.844014], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Кара-балта</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -84,8 +84,8 @@ ymaps.ready(function () {
         myPlacemark5 = new ymaps.Placemark([42.837485, 75.295116], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Токмок</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -96,8 +96,8 @@ ymaps.ready(function () {
         myPlacemark6 = new ymaps.Placemark([42.460002, 76.174585], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Балыкчи</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -108,8 +108,8 @@ ymaps.ready(function () {
         myPlacemark7 = new ymaps.Placemark([42.491144, 78.399568], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Каракол</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -120,8 +120,8 @@ ymaps.ready(function () {
         myPlacemark8 = new ymaps.Placemark([42.649742, 77.085755], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Чолпон-Ата</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -132,8 +132,8 @@ ymaps.ready(function () {
         myPlacemark9 = new ymaps.Placemark([42.215922, 75.755377], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Кочкор</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -144,8 +144,8 @@ ymaps.ready(function () {
         myPlacemark10 = new ymaps.Placemark([41.428296, 75.997626], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Нарын</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -156,8 +156,8 @@ ymaps.ready(function () {
         myPlacemark11 = new ymaps.Placemark([41.871844, 72.937748], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Токтогул</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -168,8 +168,8 @@ ymaps.ready(function () {
         myPlacemark12 = new ymaps.Placemark([41.631317, 72.671784], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Каракуль</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -180,8 +180,8 @@ ymaps.ready(function () {
         myPlacemark13 = new ymaps.Placemark([41.489582, 71.753993], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Кербен</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -192,8 +192,8 @@ ymaps.ready(function () {
         myPlacemark14 = new ymaps.Placemark([40.938049, 72.993309], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Жала-Абад</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -204,8 +204,8 @@ ymaps.ready(function () {
         myPlacemark15 = new ymaps.Placemark([40.770311, 73.299320], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Узген</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -216,8 +216,8 @@ ymaps.ready(function () {
         myPlacemark16 = new ymaps.Placemark([40.258358, 72.122303], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Кызыл-Кия</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -228,8 +228,8 @@ ymaps.ready(function () {
         myPlacemark17 = new ymaps.Placemark([43.273564, 76.914851], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Алматы</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -240,8 +240,8 @@ ymaps.ready(function () {
         myPlacemark18 = new ymaps.Placemark([51.128201, 71.430429], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Астана</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -252,8 +252,8 @@ ymaps.ready(function () {
         myPlacemark19 = new ymaps.Placemark([42.315521, 69.586942], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Шымкент</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -264,8 +264,8 @@ ymaps.ready(function () {
         myPlacemark20 = new ymaps.Placemark([50.300377, 57.154555], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Актобе</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -276,8 +276,8 @@ ymaps.ready(function () {
         myPlacemark21 = new ymaps.Placemark([49.807760, 73.088504], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Караганда</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -288,8 +288,8 @@ ymaps.ready(function () {
         myPlacemark22 = new ymaps.Placemark([42.899664, 71.392727], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Тараз</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -300,8 +300,8 @@ ymaps.ready(function () {
         myPlacemark23 = new ymaps.Placemark([50.404976, 80.249235], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Семей</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -312,8 +312,8 @@ ymaps.ready(function () {
         myPlacemark24 = new ymaps.Placemark([41.311151, 69.279737], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Ташкент</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -324,8 +324,8 @@ ymaps.ready(function () {
         myPlacemark25 = new ymaps.Placemark([53.346785, 83.776856], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Барнаул</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -336,8 +336,8 @@ ymaps.ready(function () {
         myPlacemark26 = new ymaps.Placemark([55.755864, 37.617698], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Москва</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>
@@ -348,8 +348,8 @@ ymaps.ready(function () {
         myPlacemark27 = new ymaps.Placemark([40.783388, 72.350672], {
             balloonContent: `
             <div class='balloon'>
-                <span class='balloon_text'>Название субъекта: <b>wawdawd</b></span>
-                <span class='balloon_text'>Название объекта: <b>wadwadwa</b></span>
+                <span class='balloon_text'>Название субъекта: <b>Андижан</b></span>
+                <span class='balloon_text'>Название объекта: <b>Офис продаж</b></span>
                 <span class='balloon_text_under'>город адрес</span>
                 <a href='#' class='balloon_link'>Перейти на страницу объекта</a>
             </div>

@@ -121,8 +121,8 @@ a{
 }
 
 .nav_img{
-    height: 28px;
-    width: 25px;
+    height: 24px;
+    width: 24px;
 }
 
 
@@ -475,7 +475,7 @@ a{
 }
 
 .kesme_title{
-    font-family: Gilroy;
+    font-family:  sans-serif;
     font-weight: 700;
     width: 513.82px;
     color: #FFFFFF;
@@ -560,6 +560,8 @@ a{
 
 
 .title_name{
+   display: flex;
+   justify-content: end;
     writing-mode: vertical-lr;
     font-size: 35px;
     color: rgba(0, 0, 0, 0.2);
@@ -727,6 +729,7 @@ a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
     padding: 15px 18px 10px;
     text-align: center;
     border-top: 5px solid #FFFFFF;
@@ -749,7 +752,6 @@ a{
 
 .footer_icon_wrap{
     display: flex;
-    margin-top: 15px;
 }
 
 .footer_link{

@@ -250,6 +250,7 @@ a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
     padding: 15px 18px 10px;
     text-align: center;
     border-top: solid #0A1429;
@@ -270,7 +271,6 @@ a{
 
 .footer_icon_wrap{
     display: flex;
-    margin-top: 15px;
 }
 
 .footer_link{

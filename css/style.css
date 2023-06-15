@@ -101,7 +101,7 @@ a{
 }
 
 .item_1{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .logo_img{
@@ -548,11 +548,6 @@ a{
 
 
 .swiper-slide {
-    text-align: center;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 102px 33px 88px;
     max-width: 384px;
     max-height: 380px;
@@ -565,13 +560,19 @@ a{
 
 .swiper_btn{
     color: #FFFFFF;
-    max-height: 89px;
+    max-height: 2px;
     max-width: 37px;
 }
+ .swiper-button-prev::after
+ .swiper-button-next::after{
+    color: #FFFFFF;
+   font-size: 200px !important;
+}
+
 
 .swiper_img{
-    max-height: 384.26922607421875px;
-    max-width: 384.26922607421875px;
+    max-height: 384px;
+    max-width: 384px;
 }
 
 
