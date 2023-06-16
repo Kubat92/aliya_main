@@ -4,18 +4,30 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
     slidesPerView: 3,
+    spaceBetween: 35,
     breakpoints: {
         320: {
             slidesPerView: 1,
+            spaceBetween: 0,
         },
         650: {
             slidesPerView: 2,
+            spaceBetween: 15,
         },
         970: {
             slidesPerView: 3,
+            spaceBetween: 20,
         },
     },
 });
+
+var activeIndex = swiper.activeIndex;
+
+var slides = swiper.slides;
+
+var lastSlide = slides[activeIndex + swiper.params.slidesPerView - 1];
+
+lastSlide.style.marginRight = '60px';
 
 ymaps.ready(function () {
     let myMap = new ymaps.Map('map', {
