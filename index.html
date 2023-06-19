@@ -189,9 +189,9 @@
         <div class="news_circle">
             <div class="news_circle_wrap">
                 <h2 class="news_title">Следите за нашими новостями</h2>
-                <form action="" class="news_form">
-                    <input type="text" class="email_input" placeholder="E-mail">
-                    <button class="news_btn">Подписаться</button>
+                <form action="" class="news_form" id="myForm">
+                    <input type="text" class="email_input" id="emailInput" placeholder="E-mail">
+                    <button class="news_btn" id="subscribeBtn">Подписаться</button>
                 </form>
                 <ul class="news_list">
                     <li class="news_item">
@@ -248,7 +248,7 @@
         };
         function selectPart(partNumber) {
             localStorage.setItem('selectedPart', partNumber);
-        }
+        };
     </script>
 </body>
 </html>

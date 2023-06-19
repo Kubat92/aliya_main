@@ -1,3 +1,4 @@
+// swiper
 var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
@@ -28,6 +29,10 @@ var slides = swiper.slides;
 var lastSlide = slides[activeIndex + swiper.params.slidesPerView - 1];
 
 lastSlide.style.marginRight = '60px';
+
+
+
+// яндекс карта
 
 ymaps.ready(function () {
     let myMap = new ymaps.Map('map', {
@@ -397,4 +402,42 @@ ymaps.ready(function () {
         .add(myPlacemark25)
         .add(myPlacemark26)
         .add(myPlacemark27)
+});
+
+
+
+
+// Отправка данных в google sheets
+
+document.addEventListener("DOMContentLoaded", function() {
+    var subscribeBtn = document.getElementById("subscribeBtn");
+
+    subscribeBtn.addEventListener("click", function(e) {
+    e.preventDefault();
+    var emailInput = document.getElementById("emailInput");
+    var email = emailInput.value;
+
+    // Проверка на адрес электронной почты
+    var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+    if (!emailRegex.test(email)) {
+    alert("Пожалуйста, введите корректный адрес электронной почты");
+    return;
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://script.google.com/macros/s/AKfycbxruk1cA2-kSoXfubOIxUHwRlcLYTHTlvZ0F1bGOPehNw1yJaIlRju6J7QG5a9WIFam/exec", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+            alert('данные успешно отправленны');
+        } else {
+            alert('ошибка при отправке данных');
+        }
+    }
+    };
+    xhr.send("email=" + encodeURIComponent(email));
+
+    emailInput.value = ""; // Очистка поля ввода после отправки
+});
 });
